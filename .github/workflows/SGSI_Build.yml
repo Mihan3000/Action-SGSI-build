@@ -6,11 +6,11 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://bn.d.miui.com/OS1.0.2.0.UKWTWXM/miui_AGATETWGlobal_OS1.0.2.0.UKWTWXM_8885cf5cc7_14.0.zip'
+        default: 'https://bn.d.miui.com/OS1.0.2.0.UKWEUXM/agate_eea_global_images_OS1.0.2.0.UKWEUXM_20240122.0000.00_14.0_eea_52fa2d306b.tgz'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_AGATETWGlobal_OS1.0.2.0.UKWTWXM_8885cf5cc7_14.0.zip'
+        default: 'agate_eea_global_images_OS1.0.2.0.UKWEUXM_20240122.0000.00_14.0_eea_52fa2d306b.tgz'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
