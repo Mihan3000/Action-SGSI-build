@@ -6,15 +6,15 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://bn.d.miui.com/OS1.0.2.0.UKWEUXM/agate_eea_global_images_OS1.0.2.0.UKWEUXM_20240122.0000.00_14.0_eea_52fa2d306b.tgz'
+        default: 'https://altushost-swe.dl.sourceforge.net/project/kamisroms/Mido/Crdroid/Android14/crDroidAndroid-14.0-20240917-mido-v10.9.zip?viasf=1'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'agate_eea_global_images_OS1.0.2.0.UKWEUXM_20240122.0000.00_14.0_eea_52fa2d306b.tgz'
+        default: 'crDroidAndroid-14.0-20240917-mido-v10.9.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'miui'
+        default: 'aosp'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
