@@ -6,11 +6,11 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://altushost-swe.dl.sourceforge.net/project/kamisroms/Mido/Crdroid/Android14/crDroidAndroid-14.0-20240917-mido-v10.9.zip?viasf=1'
+        default: 'https://altushost-swe.dl.sourceforge.net/project/kamisroms/Mido/Crdroid/crDroidAndroid-15.0-20250207-mido-v11.1.zip?viasf=1'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'crDroidAndroid-14.0-20240917-mido-v10.9.zip'
+        default: 'crDroidAndroid-15.0-20250207-mido-v11.1.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
@@ -29,7 +29,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Get the source code of this repositorie...
