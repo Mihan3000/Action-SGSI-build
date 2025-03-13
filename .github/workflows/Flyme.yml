@@ -1,4 +1,4 @@
-name: SGSI_Build
+name: Flyme_Build
 
 on:
   workflow_dispatch:
