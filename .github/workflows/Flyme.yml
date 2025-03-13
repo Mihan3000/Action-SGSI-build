@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://firmware.meizu.com/Firmware/Flyme/meizu20/10.2.0.0/cn/20231016121016/79f081e8/update.zip'
+        default: 'https://download.meizu.com/Firmware/Flyme/meizu20/10.23.7.31/cn_daily/20230731015253/788181b5/update.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
