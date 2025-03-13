@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://firmware-res.flyme.com/Firmware/Flyme/mblu10/9.0.4.1/cn/20220610144242/7c606a0c/update.zip?auth_key=1741883468-0-0-28bc39b9c35a30fbc12a1f5cce83587f'
+        default: 'https://4pda.to/stat/go?u=https%3A%2F%2Ffirmware.meizu.com%2FFirmware%2FFlyme%2Fmeizu20%2F10.2.0.0%2Fcn%2F20231016121016%2F79f081e8%2Fupdate.zip&e=119426734'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
