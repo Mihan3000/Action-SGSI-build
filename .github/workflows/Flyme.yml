@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://firmware-res.flyme.com/Firmware/Flyme/m2421/10.5.6.1/cn/20240725134920/6337f572/update.zip?auth_key=1741881974-0-0-3b457c07c45cf75a41a8612acfe4780b'
+        default: 'https://firmware-res.flyme.com/Firmware/Flyme/mblu10/9.0.4.1/cn/20220610144242/7c606a0c/update.zip?auth_key=1741883468-0-0-28bc39b9c35a30fbc12a1f5cce83587f'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
