@@ -141,4 +141,4 @@ jobs:
           tag: "${{ github.event.inputs.REPACK_NAME }}_${{ env.BUILD_TIME }}"
           bodyFile: "${{ github.workspace }}/Tool-SGSI-build/SGSI/build_info.txt"
           env:
-        GITHUB_TOKEN: ${{ secrets.TEST }}
+        TOKEN: ${{ secrets.TEST }}
