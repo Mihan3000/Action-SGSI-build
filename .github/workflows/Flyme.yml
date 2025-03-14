@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://firmware-res.flyme.com/Firmware/Flyme/16T/8.1.9.0/cn/20231228142450/b062f9bf/update.zip?auth_key=1741930929-0-0-e9c9b3ade2424cae3d9b921c10404b5a'
+        default: 'https://firmware-res.flyme.com/Firmware/Flyme/m2111/9.0.4.0/cn/20220721192410/e997fe94/update.zip?auth_key=1741931354-0-0-ad727e5a95c726768d34c6f53ab662af'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
@@ -140,5 +140,4 @@ jobs:
           artifacts: "${{ github.workspace }}/Tool-SGSI-build/upload_ab/*,${{ github.workspace }}/Tool-SGSI-build/upload_aonly/*"
           tag: "${{ github.event.inputs.REPACK_NAME }}_${{ env.BUILD_TIME }}"
           bodyFile: "${{ github.workspace }}/Tool-SGSI-build/SGSI/build_info.txt"
-          env:
           token: ${{ secrets.TEST }}
