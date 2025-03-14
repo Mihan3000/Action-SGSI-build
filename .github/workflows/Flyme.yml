@@ -6,15 +6,15 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://download.meizu.com/Firmware/Flyme/meizu20/10.23.7.31/cn_daily/20230731015253/788181b5/update.zip'
+        default: 'https://firmware-res.flyme.com/Firmware/Flyme/mblu10/9.0.4.1/cn/20220610144242/7c606a0c/update.zip?auth_key=1741929104-0-0-ca825acad30b0c23d5f60905e8399879'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'update.zip'
+        default: 'Flyme/mblu10/9.0.4.1/cn/20220610144242/7c606a0c/update.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'flyme_os'
+        default: 'flyme'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
@@ -22,7 +22,7 @@ on:
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: 'Flyme.zip'
+        default: 'SGSI.zip'
 
 
 
