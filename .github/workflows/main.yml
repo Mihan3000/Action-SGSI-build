@@ -1,4 +1,4 @@
-name: MIUI_Build
+name: Miui_Build
 
 on:
   workflow_dispatch:
@@ -140,4 +140,4 @@ jobs:
           artifacts: "${{ github.workspace }}/Tool-SGSI-build/upload_ab/*,${{ github.workspace }}/Tool-SGSI-build/upload_aonly/*"
           tag: "${{ github.event.inputs.REPACK_NAME }}_${{ env.BUILD_TIME }}"
           bodyFile: "${{ github.workspace }}/Tool-SGSI-build/SGSI/build_info.txt"
-          GITHUB_TOKEN: ${{ secrets.TEST }}
+          token: ${{ secrets.TEST }}
