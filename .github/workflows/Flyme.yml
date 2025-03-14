@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://firmware-res.flyme.com/Firmware/Flyme/mblu10/9.0.4.1/cn/20220610144242/7c606a0c/update.zip?auth_key=1741929104-0-0-ca825acad30b0c23d5f60905e8399879'
+        default: 'https://firmware-res.flyme.com/Firmware/Flyme/mblu10/9.0.4.1/cn/20220610144242/7c606a0c/update.zip?auth_key=1741929800-0-0-9756147cfdf3709b17310281811f13ef'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
@@ -140,4 +140,5 @@ jobs:
           artifacts: "${{ github.workspace }}/Tool-SGSI-build/upload_ab/*,${{ github.workspace }}/Tool-SGSI-build/upload_aonly/*"
           tag: "${{ github.event.inputs.REPACK_NAME }}_${{ env.BUILD_TIME }}"
           bodyFile: "${{ github.workspace }}/Tool-SGSI-build/SGSI/build_info.txt"
-          token: ${{ secrets.TEST }}
+          env:
+        GITHUB_TOKEN: ${{ secrets.TEST }}
