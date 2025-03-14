@@ -6,11 +6,11 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://firmware-res.flyme.com/Firmware/Flyme/mblu10/9.0.4.1/cn/20220610144242/7c606a0c/update.zip?auth_key=1741929800-0-0-9756147cfdf3709b17310281811f13ef'
+        default: 'https://firmware-res.flyme.com/Firmware/Flyme/16T/8.1.9.0/cn/20231228142450/b062f9bf/update.zip?auth_key=1741930929-0-0-e9c9b3ade2424cae3d9b921c10404b5a'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'Flyme/mblu10/9.0.4.1/cn/20220610144242/7c606a0c/update.zip'
+        default: 'update.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
